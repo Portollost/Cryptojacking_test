@@ -6,7 +6,15 @@
 :root {
     background-image: url(imgs/bg.jpg);
 }
-
+#contVideo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,13 +29,16 @@ h1 {
     text-shadow: 7px 5px rgba(0, 0, 0, 0.4);
     font-size: 1.5vw;
     color: #fff;
-    margin-bottom: 5rem;
+    margin-bottom: 2%;
+    text-align: center;
+    padding-top: 3%;
 }
 
 h2 {
     font-size: 4.2rem;
     margin-bottom: 4rem;
 }
+
 
 .container {
     width: 100vw;
